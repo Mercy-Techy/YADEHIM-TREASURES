@@ -8,9 +8,9 @@ export default function App() {
   const categories = [
     {
       name: "Bracelets",
-      products: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(
-        (i) => `/bracelets/${i}.jpg`
-      ),
+      products: [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+      ].map((i) => `/bracelets/${i}.jpg`),
     },
     {
       name: "Necklaces",
@@ -26,9 +26,9 @@ export default function App() {
     },
     {
       name: "Earrings",
-      products: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map(
-        (i) => `/earrings/${i}.jpg`
-      ),
+      products: [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+      ].map((i) => `/earrings/${i}.jpg`),
     },
     {
       name: "Bags",
@@ -38,7 +38,33 @@ export default function App() {
     },
     {
       name: "Rings",
-      products: [1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => `/rings/${i}.jpg`),
+      products: [1, 2, 3, 4, 5, 6, 7, 8, 9, , 10, 11, 12, 13].map(
+        (i) => `/rings/${i}.jpg`
+      ),
+    },
+    {
+      name: "Mens Jewellery",
+      products: [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        ,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+      ].map((i) => `/men/${i}.jpg`),
     },
   ];
 
@@ -68,9 +94,11 @@ export default function App() {
           transition={{ delay: 0.4 }}
           className="mt-4 text-gray-600 text-lg"
         >
-          Yadehim treasures is a Jewellery and Beauty accessories wholesale
-          platform and Store, where we provide goods at very affordable rates
-          for resale to customers
+          YADEHIM TREASURES is your go-to Jewellery and Beauty Accessories
+          wholesale platform and store, providing beautiful items at affordable
+          prices for resale or personal use. These are only a few of the
+          treasures we offer — there’s much more in store! Simply click on any
+          image to start a WhatsApp chat with us.
         </motion.p>
       </section>
 
