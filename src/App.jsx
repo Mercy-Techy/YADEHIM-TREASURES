@@ -43,7 +43,7 @@ export default function App() {
       ),
     },
     {
-      name: "Mens Jewellery",
+      name: "Men's Jewellery",
       products: [
         1,
         2,
